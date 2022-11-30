@@ -1,5 +1,11 @@
 /* comentarios en css*/
 .bg-black { background-color: black;padding: -47rem;}
 
+
+
 .list-group-item{background-color: transparent;}
+
+.list-group-item :hover {
+    color: #159ce4!important;
+}
 

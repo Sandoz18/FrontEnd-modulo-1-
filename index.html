@@ -15,13 +15,13 @@
   </head>
 
   <body>
-<!--Js-->
+<!--Js Bundle-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 
 
+  
 
-
-
+<!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -39,25 +39,17 @@
           </li>
           <li class="list-group-item">
             <!-- Button trigger modal -->                    
-              <i data-bs-toggle="modal"
-                data-bs-target="#userLogin"
-                class="far fa-user fa-2x text-white">
-              </i>
-                     </li>
+              <i data-bs-toggle="modal" data-bs-target="#userLogin"class="far fa-user fa-2x text-white">
+                 </i>
+           </li>
         </ul>
       </div>
     </nav>
 
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="userLogin"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal fade" id="userLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Login</h5>
             <button type="button"
@@ -68,11 +60,23 @@
           </div>
           <div class="modal-body">
             <!-- <form></form>-->
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos tus datos con nadie.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+             
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary"
               data-bs-dismiss="modal" >
-              Exit
+             Inicio Sesión
             </button>
           </div>
         </div>
@@ -80,18 +84,15 @@
     </div>
   
 
-    <!--<div class="banner"><img src="/assets/img/banner.jpg" ></div>   
+    <div class="banner"><img src="/assets/img/banner.jpg" ></div>   
             <div class="Perfil"><img src="/assets/img/perfil.jpg"  alt="Ilustración"></div>
         
     <h1><strong>Irene Imbriani Diez</strong><br> FullStack Developer jr.</h1>
     
     
-    -<input type="text" placeholder="usuario">
-    <input type="password"placeholder="insertá una contraseña ">
-    <button type="submit">Envíar</button><br>
-    </div> <!-->
+   
 
-    <!--
+    
     <section><h2>Sobre mi</h2></section>
     <section><h2>Experiencia Laboral</h2></section>
     <section><h2>Habilidades</h2></section>
