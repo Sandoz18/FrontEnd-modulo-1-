@@ -1,11 +1,22 @@
 /* comentarios en css*/
 .bg-black { background-color: black;padding: -47rem;}
-
+body { background-color: black;}
 
 
 .list-group-item{background-color: transparent;}
 
 .list-group-item :hover {
-    color: #159ce4!important;
+    color: #f3e306ea!important;
 }
+.list-group-item:hover{ transition: 0.2s }
+.list-group-item:hover{ transform: scale(1.5); }
+ 
+
+.logo2{color: transparent;}
+.logo2:hover{margin-left: 2rem;background-image:#f3e306ea;}
+.logo2:hover{transition: 0.2s}
+.logo2:hover {transform: scale(1.5);}
+
+.banner{height: 60rem; overflow: hidden;}
+.irene{border-radius:20rem;}
 
