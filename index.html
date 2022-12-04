@@ -8,46 +8,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
-
     <!--script Fontawesome -->
     <script src="https://kit.fontawesome.com/c39736c39a.js"crossorigin="anonymous"></script>
     <!--titulo navegador-->
     <title>  Proyecto Final Ap3</title>
+    <!--favicon-->
     <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
   </head>
 
   <body>
-<!--Js Bundle-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
-
-  
-
-<!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-black">
+      <!--Js Bundle-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+      <!--Navbar-->
+     
+      <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">               
-          <img class="logo2" src="./assets/img/logo2.png" alt="Logo Argentina Programa"/>
-       </div>        
-        </a>
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item"><a href="https://facebook.com" target="_blank">
-            <i class="fab fa-facebook fa-2x text-white"></i></a>
-          </li>
-          <li class="list-group-item"><a href="https://github.com" target="_blank">
-            <i class="fab fa-github fa-2x text-white"></i></a>
-          </li>
-          <li class="list-group-item"><a href="https://linkedin.com" target="_blank">
-            <i class="fab fa-linkedin fa-2x text-white"></i> </a>
-          </li>
-          <li class="list-group-item">
-            <!-- Button trigger modal -->                    
-              <i data-bs-toggle="modal" data-bs-target="#userLogin"class="far fa-user fa-2x text-white">
-                 </i>
-           </li>
-        </ul>
+        <a class="navbar-brand" href="#">   
+          <!--logo Ap-->            
+          <img class="logo2" src="./assets/img/logo2.png" alt="Logo Argentina Programa"/>               
+       </a></div>
+           <!--redes sociales--> 
+       <ul class="list-group list-group-horizontal">
+       <li class="list-group-item"><a href="https://facebook.com" target="_blank">
+       <i class="fab fa-facebook fa-2x text-white"></i></a>
+       </li>
+       <li class="list-group-item"><a href="https://github.com" target="_blank">
+       <i class="fab fa-github fa-2x text-white"></i></a>
+       </li>
+       <li class="list-group-item"><a href="https://linkedin.com" target="_blank">
+        <i class="fab fa-linkedin fa-2x text-white"></i> </a>
+        </li>
+         <li class="list-group-item">
+       <!--boton login usuario-->               
+        <a href="login.html"> <i  class="far fa-user fa-2x text-white"></i></a>
+         </li>
+         </ul>
       </div>
     </nav>
-
+    
     <!-- Modal -->
     <div class="modal fade" id="userLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -59,23 +57,7 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
-            <!-- <form></form>-->
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca compartiremos tus datos con nadie.</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-             
-            </form>
-          </div>
-          <div class="modal-footer">
+          </div>                  
             <button type="button" class="btn btn-secondary"
               data-bs-dismiss="modal" >
              Inicio Sesión
@@ -85,48 +67,125 @@
       </div>
     </div>
     <!--Banner-->   
-    <section class="banner">     
-          <!--h1--> 
-          <h1 class=" text-white intro"><strong> IRENE IMBRIANI DIEZ</strong><br>FullStack Developer jr.</h1>
+    <section class="banner">    
+    <!--h1 irene imbriani--> 
+    <h1 class=" text-white intro"><strong class="cambioColor"> IRENE IMBRIANI DIEZ</strong><br><b class="fullstack">Full Stack Developer jr.</b></h1>
+    <div class ="perfil"> <img src="/assets/img/perfil.jpg "alt="Perfil" class="rounded-circle img-fluid" ></div>
            
-          </section>
-            <!--Sobre mi-->
-           
-           
+    </section>
+            <!--Sobre mi--> 
+            <p class="acerca text-center">ACERCA DE MI <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+              odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!
+              <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+              odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!</p>        
+         </div>         
+         <p class="experiencia text-center">EXPERIENCIA <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+          odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!
+          <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+          odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!</p>        
+     </div>         
+     <p class="estudios text-center">ESTUDIOS <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+      odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam fuga exercitationem
+      odit quam labore aperiam aliquid, cupiditate eum assumenda<br> amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!</p>        
+ </div>        
+  
+   <!--responsive bootstrap para hard & soft skills--> 
     
-<section class="info mt-5">
-    <div class="container text-center">      
-      <div class="row">
-        <div class="col-4">          
-         <div class ="perfil"> <img src="/assets/img/perfil.jpg "alt="Perfil" class="rounded-circle img-fluid" ></div>
-        
-        </div>
-        <div class="col-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fuga exercitationem
-             odit quam labore aperiam aliquid, cupiditate
-             ut eum assumenda amet doloremque ipsum dignissimos sint obcaecati numquam non ab soluta!</p>        
-        </div>
-      </section>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          1 of 3
-        </div>
-        <div class="col-4">
-          2 of 3
-        </div>
-        
-      </div>
-    </div>
- 
+   <div class="progress-circle-container">
     
-    
-   
+    <div class="progress-circle progress-50"><span>50</span></div>  
+    <div class="progress-circle progress-51"><span>51</span></div>
+    <div class="progress-circle progress-52"><span>52</span></div>
+    <div class="progress-circle progress-53"><span>53</span></div>
+    <div class="progress-circle progress-54"><span>54</span></div>
+    <div class="progress-circle progress-55"><span>55</span></div>
+    <div class="progress-circle progress-56"><span>56</span></div>
+    <div class="progress-circle progress-57"><span>57</span></div>
+    <div class="progress-circle progress-58"><span>58</span></div>
+    <div class="progress-circle progress-59"><span>59</span></div>
+    <div class="progress-circle progress-60"><span>60</span></div>
+    <div class="progress-circle progress-61"><span>61</span></div>
+    <div class="progress-circle progress-62"><span>62</span></div>
+    <div class="progress-circle progress-63"><span>63</span></div>
+    <div class="progress-circle progress-64"><span>64</span></div>
+    <div class="progress-circle progress-65"><span>65</span></div>
+    <div class="progress-circle progress-66"><span>66</span></div>
+    <div class="progress-circle progress-67"><span>67</span></div>
+    <div class="progress-circle progress-68"><span>68</span></div>
+    <div class="progress-circle progress-69"><span>69</span></div>
+    <div class="progress-circle progress-70"><span>70</span></div>
+    <div class="progress-circle progress-71"><span>71</span></div>
+    <div class="progress-circle progress-72"><span>72</span></div>
+    <div class="progress-circle progress-73"><span>73</span></div>
+    <div class="progress-circle progress-74"><span>74</span></div>
+    <div class="progress-circle progress-75"><span>75</span></div>
+    <div class="progress-circle progress-76"><span>76</span></div>
+    <div class="progress-circle progress-77"><span>77</span></div>
+    <div class="progress-circle progress-78"><span>78</span></div>
+    <div class="progress-circle progress-79"><span>79</span></div>
+    <div class="progress-circle progress-80"><span>80</span></div>
+    <div class="progress-circle progress-81"><span>81</span></div>
+    <div class="progress-circle progress-82"><span>82</span></div>
+    <div class="progress-circle progress-83"><span>83</span></div>
+    <div class="progress-circle progress-84"><span>84</span></div>
+    <div class="progress-circle progress-85"><span>85</span></div>
+    <div class="progress-circle progress-86"><span>86</span></div>
+    <div class="progress-circle progress-87"><span>87</span></div>
+    <div class="progress-circle progress-88"><span>88</span></div>
+    <div class="progress-circle progress-89"><span>89</span></div>
+    <div class="progress-circle progress-90"><span>90</span></div>
+    <div class="progress-circle progress-91"><span>91</span></div>
+    <div class="progress-circle progress-92"><span>92</span></div>
+    <div class="progress-circle progress-93"><span>93</span></div>
+    <div class="progress-circle progress-94"><span>94</span></div>
+    <div class="progress-circle progress-95"><span>95</span></div>
+    <div class="progress-circle progress-96"><span>96</span></div>
+    <div class="progress-circle progress-97"><span>97</span></div>
+    <div class="progress-circle progress-98"><span>98</span></div>
+    <div class="progress-circle progress-99"><span>99</span></div>  
+    <div class="progress-circle progress-100"><span>100</span></div>  
+  </div>
 
+    <!--Mis Proyectos--> 
     
+   <!--login--> 
     
+      <!--Botones de edición
+      Este botón deberá
+cambiar por el de Login
+ya que como estarás
+desde el modo edición
+necesitarás salir de
+este modo para
+visualizar tu porfolio
+
+Botón para eliminar
+El botón de eliminar te
+permitirá eliminar
+algún elemento de
+alguna sección que
+desees. Comúnmente
+se muestra como una
+“X”
+Funciones adicionales
+El portfolio tiene
+formato libre, pero
+siempre puedes
+integrar
+funcionalidades
+interesantes como
+"Drag and Drop", que
+te permitirá cambiar el
+orden de los elementos
+sin tener que
+eliminarlos
+--> 
+   
     
+<footer class=""></footer>links proyectos logo Irene año </footer> 
   </body>
+ 
 </html>
 
 
